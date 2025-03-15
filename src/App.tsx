@@ -7,7 +7,8 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/navigation'
 import pic1 from './images/suni-sush-1.jpg'
 import pic2 from './images/suni-sush-2.jpg'
-import pic3 from './images/pic-3.jpg'
+import pic3 from './images/suni-sush-3.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   const [days, setDays] = useState(0)
@@ -72,7 +73,7 @@ function App() {
         </div>
 
         <div className="relative text-center text-white z-10 px-4">
-          <h1 className="text-7xl font-serif mb-6 font-dancing text-amber-200">
+          <h1 className="text-7xl font-serif mb-6 font-dancing text-rose-800 font-bold">
             Sunith & Sushmitha
           </h1>
           <p className="text-2xl mb-12 font-light tracking-wide text-amber-50">
