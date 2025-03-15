@@ -73,26 +73,28 @@ function App() {
         </div>
 
         <div className="relative text-center text-white z-10 px-4">
-          <h1 className="text-7xl font-serif mb-6 font-dancing text-rose-800 font-bold">
-            Sunith & Sushmitha
-          </h1>
-          <p className="text-2xl mb-12 font-light tracking-wide text-amber-50">
+          <div className="bg-purple-800 text-white p-8 rounded-lg shadow-lg text-center">
+            <h1 className="text-7xl font-serif mb-6 font-dancing text-white font-bold">
+              Sunith & Sushmitha
+            </h1>
+          </div>
+          <p className="text-2xl mb-12 font-light tracking-wide text-amber-50 moving-text">
             Request the pleasure of your company at their wedding
           </p>
-          <div className="flex justify-center gap-8 text-center">
-            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-28 border border-amber-200/20">
+          <div className="flex justify-center gap-4 sm:gap-6 lg:gap-8 text-center">
+            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-full sm:w-28 border border-amber-200/20">
               <div className="text-4xl font-light text-amber-200">{days}</div>
               <div className="text-sm uppercase tracking-wider mt-1 text-amber-50">
                 Days
               </div>
             </div>
-            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-28 border border-amber-200/20">
+            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-full sm:w-28 border border-amber-200/20">
               <div className="text-4xl font-light text-amber-200">{hours}</div>
               <div className="text-sm uppercase tracking-wider mt-1 text-amber-50">
                 Hours
               </div>
             </div>
-            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-28 border border-amber-200/20">
+            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-full sm:w-28 border border-amber-200/20">
               <div className="text-4xl font-light text-amber-200">
                 {minutes}
               </div>
@@ -100,7 +102,7 @@ function App() {
                 Minutes
               </div>
             </div>
-            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-28 border border-amber-200/20">
+            <div className="bg-purple-900/50 backdrop-blur-sm rounded-xl p-6 w-full sm:w-28 border border-amber-200/20">
               <div className="text-4xl font-light text-amber-200">
                 {seconds}
               </div>

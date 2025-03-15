@@ -32,3 +32,18 @@
     padding: 10px;
   }
 }
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.moving-text {
+  animation: fadeInOut 3s infinite;
+}
